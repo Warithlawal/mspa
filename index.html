@@ -139,7 +139,7 @@
 			<p class="strong">Sign up to view Mystery Shopping jobs in your area.</p>
 
 			<div class="btn-2">
-				<a href="" class="register-2">Register</a>
+				<a href="" class="register-2 register">Register</a>
 				<a href="" class="login-2">Login</a>
 			</div>
 		</div>
@@ -191,7 +191,7 @@
 		<div class="ready-text">
 			<h1>Ready to join iShopFor Ipsos?</h1>
 			<div class="btn-2">
-				<a href="" class="register-2">Register</a>
+				<a href="" class="register-2 register">Register</a>
 				<a href="" class="login-2">Login</a>
 			</div>
 		</div>
@@ -242,5 +242,83 @@
 
 		</div>
 	</footer>
+
+
+	<div class="overlay" id="overlay"></div>
+
+  <!-- Sliding Form -->
+  <div class="right-form" id="form_container">
+    <div class="form-head">
+      <div>
+        <p class="note"><strong>Submit an application to become a Driver.</strong></p>
+      </div>
+      <div>
+        <i class="fas fa-times" id="close_form"></i>
+      </div>
+    </div>
+
+    <form id="applicationForm">
+      <div class="column">
+        <div class="form-group">
+          <label>First name<span>*</span></label>
+          <input type="text" name="user_firstname" required>
+        </div>
+        <div class="form-group">
+          <label>Last name<span>*</span></label>
+          <input type="text" name="user_lastname" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Address<span>*</span></label>
+        <input type="text" name="user_address" required>
+      </div>
+
+      <div class="form-group">
+        <label>City<span>*</span></label>
+        <input type="text" name="user_city" required>
+      </div>
+
+      <div class="form-group">
+        <label>State<span>*</span></label>
+        <input type="text" name="user_state" required>
+      </div>
+
+      <div class="form-group">
+        <label>Zip code</label>
+        <input type="tel" name="user_zipcode" required>
+      </div>
+
+      <div class="form-group">
+        <label>Vehicle type/model<span>*</span></label>
+        <input type="text" name="user_vehicle" required>
+      </div>
+
+      <div class="select">
+        <label>Do you hold a current driver’s license?</label><br>
+        <input type="radio" id="license-yes" name="user_license" value="Yes">
+        <label for="license-yes">Yes</label>
+        <input type="radio" id="license-no" name="user_license" value="No">
+        <label for="license-no">No</label>
+      </div>
+
+      <div class="select">
+        <label>Do you drive daily?</label><br>
+        <input type="radio" id="drive-yes" name="user_drive" value="Yes">
+        <label for="drive-yes">Yes</label>
+        <input type="radio" id="drive-no" name="user_drive" value="No">
+        <label for="drive-no">No</label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Success Message -->
+  <p class="contact_message" id="contact-message">
+    <img src="images/successful.png" alt="Successful">
+    <span>Application Successfully Sent</span>
+  </p>
 </body>
+<script src="script.js"></script>
 </html>
