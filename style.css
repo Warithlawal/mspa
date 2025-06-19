@@ -592,6 +592,15 @@ footer {
 	.card {
 	  padding: 40px 20px 80px;
 	}
+
+	.ee {
+		padding: 0 0 10px 0;
+	}
+
+	.footer-images  img{
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 @media only screen and (max-width :500px) {
