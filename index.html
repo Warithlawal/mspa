@@ -290,6 +290,11 @@
       </div>
 
       <div class="form-group">
+        <label>What is your current age?<span>*</span></label>
+        <input type="text" name="user_age" required>
+      </div>
+
+      <div class="form-group">
         <label>Zip code</label>
         <input type="tel" name="user_zipcode" required>
       </div>
@@ -297,6 +302,11 @@
       <div class="form-group">
         <label>Vehicle type/model<span>*</span></label>
         <input type="text" name="user_vehicle" required>
+      </div>
+
+      <div class="form-group">
+        <label>How many minutes is the drive from your current location to the nearest Walmart or CVS?<span>*</span></label>
+        <input type="text" name="user_minutes" required>
       </div>
 
       <div class="select">
@@ -312,6 +322,14 @@
         <input type="radio" id="drive-yes" name="user_drive" value="Yes">
         <label for="drive-yes">Yes</label>
         <input type="radio" id="drive-no" name="user_drive" value="No">
+        <label for="drive-no">No</label>
+      </div>
+
+       <div class="select">
+        <label>Have you ever worked as a secret shopper before?</label><br>
+        <input type="radio" id="drive-yes" name="user_before" value="Yes">
+        <label for="drive-yes">Yes</label>
+        <input type="radio" id="drive-no" name="user_before" value="No">
         <label for="drive-no">No</label>
       </div>
 
