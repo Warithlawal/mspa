@@ -133,7 +133,7 @@ header a {
 }
 
 header img {
-	margin: 0 0 0 160px;
+	width: 100%;
 }
 
 /*----------------------------------------testimonial---------------------------------------------*/
@@ -258,6 +258,10 @@ header img {
 	align-items: center;
 	gap: 30px;
 	padding: 70px 10px;
+}
+
+.next-side-section img {
+	width: 100%;
 }
 
 .next-side-text {
@@ -491,6 +495,10 @@ header img {
 	color: white;
 }
 
+.ready img {
+	width: 100%;
+}
+
 /*----------------------------------------Footer1--------------------------------------------*/
 
 footer {
@@ -558,16 +566,12 @@ footer {
 		width: 340px;
 	}
 
-	header img {
-		width: 340px;
-	}
-
 	.container {
-	  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
 
-	.ready-img img {
-		width: 340px;
+	.card {
+	  padding: 40px 20px 80px;
 	}
 
 	.ee {
@@ -577,6 +581,16 @@ footer {
 	.footer-images  img{
 		display: block;
 		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width :400px) {
+	.container {
+	  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	}
+
+	.card {
+	  padding: 40px 20px 80px;
 	}
 }
 
@@ -609,11 +623,6 @@ footer {
 
 	.btn {
 		display: none;
-	}
-
-	header img {
-		margin: 0;
-		max-width: 500px;
 	}
 
 	.testimonial-container {
@@ -675,10 +684,6 @@ footer {
 		font-size: 16px;
 	}
 
-	.next-side-section img {
-		max-width: 500px;
-	}
-
 	.container {
 		padding: 0 15px 0;
 	}
@@ -732,6 +737,19 @@ footer {
 	.footer-base  ul {
 		flex-direction: column;
 		text-align: center;
+	}
+
+	.ready-text h1 {
+		font-size: 24px;
+		padding: 10px 0 0;
+	}
+
+	.mystery-title h1 {
+		font-size: 24px;
+	}
+
+	.testimonial-text h1 {
+		font-size: 24px;
 	}
 
 }
