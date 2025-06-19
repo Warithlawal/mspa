@@ -12,7 +12,7 @@ nav {
 	align-items: center;
 	text-transform: uppercase;
 	font-weight: 600;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
@@ -21,7 +21,8 @@ nav {
 }
 
 .logo-section h3  {
-	margin: 20px 0 0 ;
+	margin: 18px 0  0 20px;
+	color: #002657;
 }
 
 .logo-section {
@@ -32,7 +33,7 @@ nav {
 
 .list-section {
 	display: flex;
-	gap: 50px;
+	gap: 60px;
 }
 
 .list-section ul {
@@ -47,7 +48,7 @@ nav {
 
 .list-section ul li  a {
 	text-decoration: none;
-	color: black;
+	color: #002657;
 }
 
 .register-section {
@@ -62,17 +63,18 @@ nav {
 .register {
 	background-color: #e0d969;
 	padding: 15px 35px;
+	margin: 0 20px 0 0;
 }
 
 .register:hover {
-	background-color:  #002657;
+	background-color: #002657;
 	color: white;
 	
 }
 
 .user {
 	border: 0.5px solid black;
-	padding: 15px 17px;
+	padding: 14px 17px;
 }
 
 .user:hover {
@@ -87,7 +89,7 @@ nav {
 }
 
 header {
-	margin: 0 0 0 50px;
+	margin: 0 0 0 20px;
 }
 
 header h1 {
@@ -95,6 +97,7 @@ header h1 {
 	margin: 0 0 30px;
 	text-transform: uppercase;
 	color: #002657;
+	font-weight: 800;
 }
 
 header p {
@@ -105,12 +108,20 @@ header p {
 
 header a {
 	text-decoration: none;
-	color: black;
+	color: #002657;
+}
+
+.head-link {
+	display: flex;
+	gap: 20px;
+	font-weight: 700;
+	margin-bottom: 70px;
 }
 
 .login {
 	border: 0.5px solid black;
 	padding: 15px 35px;
+	text-transform: uppercase;
 }
 
 .login:hover {
@@ -157,6 +168,7 @@ header img {
 
 .testimonial-text h1 {
 	font-size: 48px;
+	text-transform: uppercase;
 }
 
 .testimonial-carousel-container {
@@ -257,7 +269,8 @@ header img {
 	display: flex;
 	align-items: center;
 	gap: 30px;
-	padding: 70px 10px;
+	padding: 120px 10px;
+	clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
 }
 
 .next-side-section img {
@@ -306,6 +319,14 @@ header img {
 	margin: 40px 0 0;
 }
 
+.btn-3 a {
+	color: white;
+}
+
+.btn-4 a {
+	border: 1px solid black;
+}
+
 .register-2 {
 	background-color: #e0d969;
 	padding: 15px 35px;
@@ -331,6 +352,11 @@ header img {
 
 .btn-2 a .login-2 {
 	color: white;
+}
+
+.about {
+	background-color: white;
+	color: #002657;
 }
 
 /*----------------------------------------mystery-title---------------------------------------------*/
@@ -475,7 +501,9 @@ header img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 30px;
+	margin: 20px 0;
+	padding: 10px 30px 0;
+  	clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
 }
 
 .ready-text h1 {
@@ -497,6 +525,90 @@ header img {
 
 .ready img {
 	width: 100%;
+}
+
+/*----------------------------------------What is mystery shopping--------------------------------------------*/
+
+.what-is {
+	padding: 100px 20px;
+}
+
+.what-is h1 {
+	font-size: 48px;
+	margin: 0 0 30px;
+	text-transform: uppercase;
+	color: #002657;
+	font-weight: 800;
+}
+
+.what-is p {
+	color: #002657;
+	margin: 0 0 30px;
+	font-size: 20px;
+	font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.what-is-card-grid {
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 30px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.what-is-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.what-is-card:hover {
+  transform: translateY(-5px);
+}
+
+.what-is-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: #e2e9f4;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.icon {
+  background: #002657;
+  color: white;
+  font-size: 20px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
+}
+
+.what-is-card h3 {
+  color: #002657;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.what-is-card p {
+  color: #2f3e53;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 600;
 }
 
 /*----------------------------------------Footer1--------------------------------------------*/
@@ -631,6 +743,7 @@ label {
   margin: 20px auto;
   display: block;
   border-radius: 5px;
+  color: black;
 }
 
 .contact_message {
@@ -787,6 +900,7 @@ label {
 
 	.next-side-section {
 		flex-direction: column;
+		clip-path: none;
 	}
 
 	.next-side-text h1 {
@@ -826,6 +940,7 @@ label {
 
 	.ready {
 		flex-direction: column;
+		clip-path: none;
 	}
 
 	.footer-1 {
@@ -866,6 +981,17 @@ label {
 
 	.testimonial-text h1 {
 		font-size: 24px;
+	}
+
+	.what-is-card-grid {
+	  grid-template-columns: 1fr;
+	}
+
+	.next-side-section iframe {
+	  width: 100%;
+	  height: auto;
+	  aspect-ratio: 16 / 9;
+	  max-width: 100%;
 	}
 
 }
