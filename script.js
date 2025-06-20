@@ -20,3 +20,21 @@
     formContainer.classList.remove('active');
     this.classList.remove('active');
   });
+
+
+
+  document.querySelectorAll('.faq-head').forEach(head => {
+  head.addEventListener('click', () => {
+    const parent = head.parentElement;
+    parent.classList.toggle('active');
+  });
+});
+
+
+  const faqLinks = document.querySelectorAll('.faq-link a');
+faqLinks.forEach(link => {
+  link.addEventListener('click', (e) => {
+    faqLinks.forEach(l => l.classList.remove('active'));
+    e.currentTarget.classList.add('active');
+  });
+});
