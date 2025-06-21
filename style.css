@@ -715,9 +715,9 @@ header form button {
 
 .faq-link h1 {
     font-size: 58px;
-	line-height: 3.6rem;
 	color: #002657;
 	font-weight: 800;
+	text-transform: uppercase;
 }
 
 .faq-questions {
@@ -851,132 +851,132 @@ header form button {
 /*----------------------------------------Contact us--------------------------------------------*/
 
 .container-contact {
-      display: flex;
-      padding: 40px 15px;
-      gap: 60px;
-      flex-wrap: wrap;
-    }
+  display: flex;
+  padding: 40px 15px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
 
-    .left-contact, .right-contact {
-      flex: 1 1 400px;
-    }
+.left-contact, .right-contact {
+  flex: 1 1 400px;
+}
 
-    .left-contact h1 {
-      font-size: 80px;
-      font-weight: 800;
-      text-transform: uppercase;
-      margin-bottom: 20px;
-      color: #002657;
-    }
+.left-contact h1 {
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #002657;
+}
 
-    .left-contact p {
-      font-size: 20px;
-      padding: 0 0 30px 0;
-      color: #002657;
-    }
+.left-contact p {
+  font-size: 20px;
+  padding: 0 0 30px 0;
+  color: #002657;
+}
 
-    .left-contact p a {
-      font-weight: bold;
-      font-size: 20px;
-      color: #002657;
-    }
+.left-contact p a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #002657;
+}
 
-    .info-box {
-      background-color: #f1f3f7;
-      padding: 60px 30px 30px;
-      margin-top: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
+.info-box {
+  background-color: #f1f3f7;
+  padding: 60px 30px 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
-    .info-box img {
-    	width: 230px;
-    	margin-bottom: -30px;
-    }
+.info-box img {
+	width: 230px;
+	margin-bottom: -30px;
+}
 
-    .info-text {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-    .info-text p {
-      font-size: 1rem;
-	    font-weight: 700;
-	    line-height: 1.5rem;
-	    letter-spacing: 1px;
-	    text-transform: uppercase;
-    }
+.info-text p {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
-    .icon {
-      margin-right: 10px;
-    }
+.icon {
+  margin-right: 10px;
+}
 
-    .address {
-      font-weight: bold;
-      white-space: pre-line;
-    }
+.address {
+  font-weight: bold;
+  white-space: pre-line;
+}
 
-    .right-contact h2 {
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
+.right-contact h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
 
-    .contat-us-form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+.contat-us-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-    .contat-us-form label {
-      font-size: 20px;
-      margin: 0;
-      color: #22446f;
-      font-weight: 400;
-    }
+.contat-us-form label {
+  font-size: 20px;
+  margin: 0;
+  color: #22446f;
+  font-weight: 400;
+}
 
-    .contat-us-form  input, select, textarea {
-      padding: 16px;
-      font-size: 16px;
-      width: 100%;
-      box-sizing: border-box;
-      margin-bottom: 10px;
-      border: 1px solid #bbc5d2;
-      font-weight: 400;
-      color: #bbc5d2;
-    }
+.contat-us-form  input, select, textarea {
+  padding: 16px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #bbc5d2;
+  font-weight: 400;
+  color: #bbc5d2;
+}
 
-    .contat-us-form  textarea {
-      min-height: 150px;
-    }
+.contat-us-form  textarea {
+  min-height: 150px;
+}
 
-    .required::after {
-      content: '*';
-      color: #00a1e0;
-      margin-left: 5px;
-    }
+.required::after {
+  content: '*';
+  color: #00a1e0;
+  margin-left: 5px;
+}
 
-    .contat-us-form button {
-    	font-size: 1rem;
-	    font-weight: 700;
-	    line-height: 1.5rem;
-	    letter-spacing: 1px;
-	    display: inline-block;
-	    padding: 15px 35px;
-	    border: 1px solid;
-	    color: #002657;
-	    text-decoration: none;
-	    cursor: pointer;
-	    background-color: #e0d968;
-	    border-color: #e0d968;
-    }
+.contat-us-form button {
+	font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 15px 35px;
+    border: 1px solid;
+    color: #002657;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #e0d968;
+    border-color: #e0d968;
+}
 
-    .contat-us-form button:hover {
-    	background-color: #002657;
-    	color: white;
-    }
+.contat-us-form button:hover {
+	background-color: #002657;
+	color: white;
+}
 
 /*----------------------------------------Footer1--------------------------------------------*/
 
@@ -1252,9 +1252,14 @@ label {
 		order: 2;
 	}
 
-	.testimonial-carousel{
+	.testimonial-carousel {
 		flex-direction: column;
 	}
+
+	.testimonial-text strong {
+		font-size: 16px;
+	}
+
 
 	.quote-text p {
 		font-size: 16px;
@@ -1275,13 +1280,32 @@ label {
 	.next-side-section {
 		flex-direction: column;
 		clip-path: none;
+		padding: 40px 15px;
 	}
 
 	.next-side-text h1 {
 		font-size: 24px;
+		font-weight: 800;
 	}
 	.next-side-text p {
 		font-size: 16px;
+	}
+
+	.what-is {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.what-is h1 {
+		font-size: 24px;
+	}
+
+	.what-is p {
+		font-size: 16px;
+	}
+
+	.what-is-card h3 {
+		font-size: 24px;
 	}
 
 	.btn-2 {
@@ -1378,6 +1402,86 @@ label {
     .info-box img {
     	margin-bottom: 0;
     }
+
+    .faq-header {
+		flex-direction: column;
+	}
+
+	.faq-header p {
+		font-size: 16px;
+	}
+
+	.faq-section {
+		flex-direction: column;
+		margin-top: -100px;
+	}
+
+	.faq-link {
+		position: relative;
+		margin-bottom: 50px;
+		width: 430px;
+	}
+
+	.faq-link a {
+		font-size: 16px;
+	}
+
+	.faq-link h1 {
+		font-size: 24px;
+	}
+
+	.faq-questions {
+		margin-top: 50px;
+	}
+
+	.faq-questions h1 {
+		font-size: 24px;
+	}
+
+	.yy {
+		margin-top: 50px;
+	}
+
+	.faq-head h3 {
+		font-size: 16px;
+	}
+
+	.faq-accordion p {
+		font-size: 16px;
+	}
+
+	.faq-head {
+		padding: 20px;
+	}
+
+	header form {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.news-grid h3 {
+	  font-size: 20px;
+	}
+
+	.news-grid p {
+	  font-size: 16px;
+	}
+
+	.left-contact h1 {
+	  font-size: 32px;
+	}
+
+	.left-contact p {
+	  font-size: 16px;
+	}
+
+	.icons {
+		margin: auto;
+	}
+
+	.right-contact h2 {
+	  font-size: 16px;
+	}
 }
 
 
