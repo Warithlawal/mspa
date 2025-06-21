@@ -1176,6 +1176,11 @@ label {
 		display: block;
 		margin: 0 auto;
 	}
+
+	.news-grid {
+	  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	  gap: 40px 32px;
+	}
 }
 
 @media only screen and (max-width :400px) {
@@ -1194,6 +1199,19 @@ label {
 	.footer-images  img{
 		display: block;
 		margin: 0 auto;
+	}
+
+	.news-container {
+	  padding: 0 18px;
+	}
+
+	.news-grid {
+	  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	  gap: 40px 32px;
+	}
+
+	.mobile {
+		flex-direction: column;
 	}
 }
 
@@ -1419,7 +1437,7 @@ label {
 	.faq-link {
 		position: relative;
 		margin-bottom: 50px;
-		width: 430px;
+		width: 340px;
 	}
 
 	.faq-link a {
