@@ -341,6 +341,10 @@ header form button {
 	width: 100%;
 }
 
+.crop img {
+	width: 670px !important;
+}
+
 .next-side-text {
 	color: white;
 }
@@ -1214,6 +1218,11 @@ label {
 	  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	  gap: 40px 32px;
 	}
+
+	.crop img {
+		width: 310px !important;
+	}
+
 }
 
 @media only screen and (max-width :400px) {
@@ -1246,6 +1255,11 @@ label {
 	.mobile {
 		flex-direction: column;
 	}
+
+	.crop img {
+		width: 370px !important;
+	}
+
 }
 
 @media only screen and (max-width :500px) {
@@ -1311,7 +1325,6 @@ label {
 	.testimonial-text strong {
 		font-size: 16px;
 	}
-
 
 	.quote-text p {
 		font-size: 16px;
@@ -1534,6 +1547,11 @@ label {
 	.right-contact h2 {
 	  font-size: 16px;
 	}
+
+	.crop img {
+		width: 460px !important;
+	}
+
 }
 
 @media (max-width: 768px) {
