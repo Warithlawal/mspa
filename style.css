@@ -35,15 +35,15 @@ nav {
 .logo-section span img {
 	width: 16px;
 	height: 14px;
-	margin-top: 18px;
+	margin-top: 10px;
 }
 
 .logo-section img {
-	width: 256px;
+	width: 156px;
 }
 
 .logo-section h3  {
-	margin: 18px 0  0 10px;
+	margin: 10px 0  0 10px;
 	color: #002657;
 }
 
@@ -61,7 +61,7 @@ nav {
 .list-section ul {
 	display: flex;
 	gap: 50px;
-	margin: 20px 0 0 ;
+	margin: 12px 0 0 ;
 }
 
 .list-section ul li {
@@ -78,7 +78,7 @@ nav {
 }
 
 .register-section {
-	margin: 20px 0 0 ;
+	margin: 12px 0 0 ;
 }
 
 .register-section a {
@@ -129,7 +129,7 @@ nav {
 }
 
 header {
-	margin: 100px 0 0 20px;
+	margin: 150px 0 0 20px;
 }
 
 header h1 {
@@ -1250,6 +1250,10 @@ label {
 
 @media only screen and (max-width :500px) {
 
+	.logo-section img {
+		width: 120px;
+	}
+
 	header {
 		margin: 0;
 		padding: 0 15px;
@@ -1398,7 +1402,7 @@ label {
 		align-items: center;
 	}
 
-	.logo-section img {
+	.footer-logo img {
 		margin: 0 auto;
 	}
 
