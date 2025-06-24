@@ -104,7 +104,7 @@ nav {
 }
 
 .user:hover {
-	background-color:  #002657;
+	background-color: #002657;
 	color: white;
 }
 .menu-toggle {
@@ -1105,6 +1105,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .form-head i {
@@ -1148,12 +1149,12 @@ label {
 
 .right-form button {
   padding: 10px 20px;
-  background-color: #ffd700;
+  background-color: #e0d969;
   font-size: 18px;
   border: none;
   margin: 20px auto;
   display: block;
-  border-radius: 5px;
+  border-radius: 2px;
   color: black;
 }
 
