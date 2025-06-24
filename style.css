@@ -342,7 +342,7 @@ header form button {
 }
 
 .crop img {
-	width: 670px !important;
+	width: 670px;
 }
 
 .next-side-text {
@@ -1029,7 +1029,7 @@ footer {
 .footer-1 ul {
 	display: flex;
 	gap: 50px;
-	margin: 20px 0 0 ;
+	margin: 20px 0 ;
 }
 
 .footer-1  ul li {
@@ -1220,7 +1220,7 @@ label {
 	}
 
 	.crop img {
-		width: 310px !important;
+		width: 300px !important;
 	}
 
 }
@@ -1257,7 +1257,7 @@ label {
 	}
 
 	.crop img {
-		width: 370px !important;
+		width: 320px;
 	}
 
 }
@@ -1426,6 +1426,7 @@ label {
 
 	.footer-base {
 		flex-direction: column;
+		margin-top: 30px;
 	}
 
 	.footer-base  ul {
@@ -1549,7 +1550,7 @@ label {
 	}
 
 	.crop img {
-		width: 460px !important;
+		width: 400px;
 	}
 
 }
